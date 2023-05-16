@@ -1,3 +1,7 @@
+![The Black Sword Hack](src/logo.png?raw=true "Title")
+
+All the art, everything else - I don't own it nor do I claim to, this is just for my own use and for anyone who wants to make it a little easier to use this game on Roll20. You should buy the game at [the Merry Mushmen's store](https://www.themerrymushmen.com/product/black-sword-hack-ultimate-chaos-edition/), it's quite good.
+
 # Roll 20 Sheet for the Black Sword Hack
 
 Code for a custom character sheet for "THE BLACK SWORD HACK" system, for use in Roll20
