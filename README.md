@@ -6,12 +6,17 @@ There's some dev conveniences that mean you'll have to build the roll20 copy
 I like to develop with a server, I've bundled http-server and nodemon as conveniences
 
 To use:
+
 - clone repo
-- npm i 
+- npm i
 - npm run build
+
+To serve, dev:
+
+- npm run serve _# serves the dist folder (so make sure you have one) @ localhost:7777_
+- npm run dev _# starts up nodemon_
 
 The dist folder has 2 files you'll need to use for roll20:
 roll20.html & style.css
 
 The other files in that folder are just for something to look at while developing
-

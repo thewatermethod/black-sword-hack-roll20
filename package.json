@@ -1,6 +1,6 @@
 {
-  "name": "miserable-secrets",
-  "version": "0.0.0",
+  "name": "black-sword-hack-roll20",
+  "version": "1.0.0",
   "scripts": {
     "build": "node ./build.js",
     "dev": "nodemon --watch src -e html,js,css ./build.js",
