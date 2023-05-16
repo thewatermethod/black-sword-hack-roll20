@@ -1,0 +1,156 @@
+<div class="sheet">
+
+  <div class="cols">
+    <div class="col">
+      <div class="form-el">
+        <label for="attr_Name">Name</label>
+        <input type="text" name="attr_Name" id="attr_Name" />
+      </div>
+
+      <div class="form-el">
+        <label for="attr_Level">Level</label>
+        <input type="number" name="attr_Level" id="attr_Level" max="10" />
+      </div>
+
+      <div class="attributes">
+        <div class="attribute">
+          <label for="attr_STR">STR</label>
+          <input type="number" name="attr_STR" id="attr_STR" max="20" />
+        </div>
+
+        <div class="attribute attribute-INT">
+          <label for="attr_INT">INT</label>        
+          <input type="number" name="attr_INT" id="attr_INT" max="20" />
+        </div>
+        
+        <div class="attribute">
+          <label for="attr_DEX">DEX</label>
+          <input type="number" name="attr_DEX" id="attr_DEX" max="20" />
+        </div>
+
+        <div class="attribute">
+          <label for="attr_WIS">WIS</label>
+          <input type="number" name="attr_WIS" id="attr_WIS" max="20" />
+        </div>
+
+        <div class="attribute">
+          <label for="attr_CON">CON</label>
+          <input type="number" name="attr_CON" id="attr_CON" max="20" />
+        </div>       
+        
+        <div class="attribute">
+          <label for="attr_CHA">CHA</label>        
+          <input type="number" name="attr_CHA" id="attr_CHA" max="20" />
+        </div>
+
+        <img src="/sword.png" alt="The Black Runesword Stormbringer, Drinker of Souls" />
+      </div>
+
+      <h2>Equipment</h2>
+      <div class="form-el">
+        <label for="attr_Armor">Armor</label>
+        <input type="text" name="attr_Armor" id="attr_Armor" />
+      </div>
+
+      <div class="form-el">
+        <label for="attr_Weapons">Weapons</label>
+        <input type="text" name="attr_Weapons" id="attr_Weapons" />
+      </div>
+
+      <div class="form-ta">
+        <label for="attr_Misc">Misc</label>
+        <textarea rows="5" name="attr_Misc" id="attr_Misc"></textarea>
+      </div>
+
+    </div><!--col-->
+
+    <div class="col">
+
+      <div class="all-boxes">
+        <div class="boxes">
+          <h2>Damage Die</h2>
+          <div class="two-boxes">
+    
+            <div class="box">          
+              <input type="number" name="attr_DamageDie" id="attr_DamageDie" aria-label="Damage Die" />
+            </div><!--box-->
+    
+            <div class="box">
+              <input type="number" name="attr_DamageDieUnarmed" id="attr_DamageDieUnarmed" />
+              <label for="attr_DamageDieUnarmed">Unarmed</label>
+            </div><!--box-->
+    
+          </div><!--two-boxes-->
+    
+        </div><!--boxes-->
+    
+        <div class="boxes">
+          <label for="attr_DoomDie">Doom Die</label>      
+          <div class="box">    
+            <select name="attr_DoomDie" id="attr_DoomDie">          
+              <option>d20</option>
+              <option>d12</option>
+              <option>d10</option>
+              <option>d8</option>
+              <option selected>d6</option>
+              <option>d4</option>
+            </select>
+          </div>
+        </div>
+    
+        <div class="boxes">
+        <h2>Hit Points</h2>
+    
+          <div class="two-boxes">
+            <div class="box">
+              <input type="number" name="attr_HitPoints" id="attr_HitPoints" />
+              <label for="attr_HitPoints">Current</label>
+            </div>
+    
+            <div class="box">
+              <input type="number" name="attr_MaxHP" id="attr_MaxHP" />
+              <label for="attr_MaxHP">Max</label>
+            </div>
+          </div>
+        </div>
+    
+      </div><!--all-boxes-->
+
+
+      <div class="form-ta"> 
+        <label for="attr_Origin">Origin</label>
+        <textarea rows="5" name="attr_Origin" id="attr_Origin"></textarea>
+      </div>
+
+      <div class="form-ta"> 
+        <label for="attr_Background">Background</label>
+        <textarea rows="5" name="attr_Background" id="attr_Background"></textarea>
+      </div>
+
+      <div class="form-ta"> 
+        <label for="attr_Gifts">Gifts</label>
+        <textarea rows="5" name="attr_Gifts" id="attr_Gifts"></textarea>
+      </div>
+
+      <div class="form-ta"> 
+        <label for="attr_Stories">Stories & Dark Secrets</label>
+        <textarea rows="5" name="attr_Stories" id="attr_Stories"></textarea>
+      </div>
+
+
+
+
+
+    </div><!--col-->
+  </div><!--cols-->
+
+
+
+
+</div><!--sheet-->
+
+
+<!-- leave this in place-->
+<script type="text/worker">
+${INLINE_SCRIPT}
+</script>

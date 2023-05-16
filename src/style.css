@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+.sheet {
+  background-image: url("texture.png");
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+}
+
+input,
+textarea,
+select {
+  background: transparent;
+  display: block;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+}
+
+.cols {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 500px 1fr;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+[class^="form-"] {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+.form-el {
+  gap: 1em;
+}
+
+.form-ta {
+  flex-direction: column;
+}
+
+[class^="form-"] input {
+  flex: 0 1 200px;
+}
+
+[class^="form-"] textarea {
+  width: 67%;
+}
+
+.attributes {
+  align-self: center;
+  padding: 1em;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 300px;
+}
+
+.attributes input {
+  background: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 0.5em;
+  position: relative;
+  z-index: 1;
+}
+
+[alt="The Black Runesword Stormbringer, Drinker of Souls"] {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  z-index: 0;
+}
+
+.all-boxes {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+}
+
+.boxes h2,
+.boxes label {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.box input,
+.box select {
+  height: 50px;
+  margin: auto;
+  padding: 0.5rem;
+  width: 50px;
+}
+
+.box select {
+  width: 100%;
+}
+
+.box input + label {
+  font-size: 12px;
+}
+
+.boxes .two-boxes {
+  display: flex;
+  gap: 0.5em;
+}
