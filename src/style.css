@@ -71,6 +71,7 @@ textarea {
   padding: 1em;
   position: relative;
   display: grid;
+  gap: 0.5em;
   grid-template-columns: 1fr 1fr;
   width: 300px;
 }
@@ -83,6 +84,18 @@ textarea {
   padding: 0.5em;
   position: relative;
   z-index: 1;
+}
+
+.attribute label button {
+  font-size: 1.2em;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.attribute label button:focus,
+.attribute label button:active {
+  outline: tomato;
 }
 
 [alt="The Black Runesword Stormbringer, Drinker of Souls"] {
@@ -128,4 +141,28 @@ textarea {
   display: flex;
   justify-content: center;
   gap: 0.5em;
+}
+
+.sheet-rolltemplate-roll_attribute .sheet-template-container {
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px tomato;
+  padding: 0.5em;
+}
+
+.sheet-rolltemplate-roll_attribute .sheet-template-container h1,
+.sheet-rolltemplate-roll_attribute .sheet-template-container p {
+  text-align: center;
+}
+
+.sheet-rolltemplate-roll_attribute .sheet-template-container p {
+  font-family: "PT Serif", serif;
+}
+
+.sheet-rolltemplate-roll_attribute .inlinerollresult,
+.sheet-rolltemplate-roll_attribute .inlinerollresult.fullfail,
+.sheet-rolltemplate-roll_attribute .inlinerollresult.fullcrit {
+  background: transparent;
+  border: 0;
 }

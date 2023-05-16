@@ -37,5 +37,3 @@ build.js, which _npm run dev_ and _npm run build_ both run, does a few things
 Changing template.html will not yield any changes to the product you inserting into the roll20 environment.
 
 The only changes that will actively do anything there are style.css, index.html, and main.js
-
-main.js is blank now but I'm leaving it to make this easier to reuse as a template
