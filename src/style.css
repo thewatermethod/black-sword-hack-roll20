@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 
 .sheet {
-  background-image: url("texture.png");
+  background-image: url("https://github.com/thewatermethod/black-sword-hack-roll20/blob/main/src/texture.png?raw=true");
+  background-size: 100%;
   font-family: "PT Serif", serif;
   font-size: 20px;
+}
+
+.sheet h2 {
+  font-weight: bold;
 }
 
 input,
@@ -18,7 +23,7 @@ select {
 .cols {
   display: grid;
   gap: 1em;
-  grid-template-columns: 500px 1fr;
+  grid-template-columns: 400px 1fr;
 }
 
 .col {
@@ -42,6 +47,15 @@ textarea {
 
 .form-ta {
   flex-direction: column;
+}
+
+[class^="form-"] label.long {
+  max-width: 100%;
+}
+
+[class^="form-"] label {
+  max-width: 125px;
+  padding-right: 0;
 }
 
 [class^="form-"] input {
@@ -75,7 +89,7 @@ textarea {
   height: 100%;
   position: absolute;
   top: 0;
-  left: 25%;
+  left: 30%;
   z-index: 0;
 }
 
@@ -102,7 +116,8 @@ textarea {
 }
 
 .box select {
-  width: 100%;
+  text-align: center;
+  width: 100px;
 }
 
 .box input + label {
@@ -111,5 +126,6 @@ textarea {
 
 .boxes .two-boxes {
   display: flex;
+  justify-content: center;
   gap: 0.5em;
 }
